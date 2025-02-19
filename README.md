@@ -24,18 +24,18 @@ The project uses **Node.js** with the following dependencies:
 
 ```json
 {
-  "name": "simpletimeservice",
-  "version": "1.0.0",
-  "description": "A simple timestamp service",
-  "main": "node src/server.js",
-  "scripts": {
-    "start": "node src/server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "moment": "^2.29.4"
+    "name": "simpletimeservice",
+    "version": "1.0.0",
+    "description": "A minimalist microservice that returns the current timestamp and the client's IP address.",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "node src/server.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
   }
-}
+  
 ```
 
 ## 📌 Running Locally
